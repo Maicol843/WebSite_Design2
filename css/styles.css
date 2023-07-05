@@ -53,9 +53,14 @@ nav a{
     padding-top: 30%;
     padding-left: 3%;
     text-decoration: none;
+    color: rgb(0, 110, 255);
 }
 
 a:hover{
+    color: black;
+}
+
+.active{
     color: black;
 }
 
@@ -87,3 +92,13 @@ h4, pre{
     width: 100vw;
 }
 
+/*----Contact.html----*/
+.contenedorContact{
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+
+u{
+    color: blue;
+}
