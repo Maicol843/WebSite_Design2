@@ -8,11 +8,6 @@ body{
     background-color: rgb(223, 219, 185);
 }
 
-.Home{
-    height: 900px;
-    width: 100vw;
-}
-
 .imagen-1{
     width: 100vw;
     height: 60vh;
@@ -23,6 +18,7 @@ h1{
     color: white;
     background-color: black;
     padding: 1%;
+    width: 98vw;
 }
 
 .logo{
@@ -53,18 +49,23 @@ nav a{
     padding-top: 30%;
     padding-left: 3%;
     text-decoration: none;
+    color: rgb(0, 110, 255);
 }
 
 a:hover{
     color: black;
 }
 
-.contenedorHome{
-    position: relative;
-    top: 20px;
-    left: 200px;
+.active{
+    color: black;
 }
 
+.contenedorHome{
+    position: absolute;
+    left: 200px;
+    top: 490px;
+    height: 300px;
+}
 
 h4, pre{
     padding-top: 3%;
@@ -73,17 +74,24 @@ h4, pre{
 /*----About.html----*/
 
 .contenedorAbout{
-    position: relative;
+    position: absolute;
     left: 200px;
-    top: 10px;
+    top: 485px;
+    height: 650px;
 }
 
 .contenedorAbout div{
     padding-top: 3%;
 }
 
-.About{
-    height: 1300px;
-    width: 100vw;
+/*----Contact.html----*/
+.contenedorContact{
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    height: 300px;
 }
 
+u{
+    color: blue;
+}
